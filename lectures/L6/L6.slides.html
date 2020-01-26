@@ -13417,7 +13417,7 @@ $$</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Prediction:
     $$
-        \hat{Y} = W^TX+b
+        \hat{Y} = \sum_{i=1}^n w_ix_i + b
     $$</p>
 
 </div>
@@ -13501,7 +13501,7 @@ $$
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Derivative of loss:
     $$
-        \frac{dJ}{dW} = \frac{1}{training\ set\ size}\sum_{training\ set}(\hat{Y}-Y)x
+        \frac{dJ}{dW} = \frac{2}{training\ set\ size}\sum_{training\ set}\sum_{j=1}^n(\hat{y_j}-y_j)x_j
     $$</p>
 
 </div>
