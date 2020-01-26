@@ -13227,10 +13227,10 @@ a.anchor-link {
     X \~ B(p)
 $$
 Плотность вероятности: $$
-    f(x|p) = p^x(1-p)^{1-x}I_{x\in{0,1}}(x)
+    f(x|p) = p^x(1-p)^{1-x}(x)I_{x\in[0,1]}
 $$
 Функция-индикатор: $$
-    I_{x\in\{0,1\}} = 1\ if\ x = 1\ else\ 0
+    I_{x\in[0,1]} = 1\ if\ x \in [0,1]\ else\ 0
 $$
 Матожидание: $$
     Ex = p
@@ -13245,11 +13245,11 @@ $$</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Распределение Бернулли $$
+<p>Биноминальное распределение $$
     X \~ Bin(n,p)
 $$
 Плотность вероятности: $$
-    f(x|p) = C^{x}_np^x(1-p)^{1-x}I_{x\in{0,1}}(x)
+    f(x|p) = C^{x}_np^x(1-p)^{1-x}(x)I_{x\in[0,1]}
 $$
 Число сочетаний: $$
     C^{x}_n = \frac{n!}{x!(n-x)!}
@@ -13272,9 +13272,6 @@ $$</p>
 $$
 Плотность вероятности: $$
     f(x) = I_{x\in[a,b]}(x)
-$$
-Число сочетаний: $$
-    C^{x}_n = \frac{n!}{x!(n-x)!}
 $$
 Матожидание: $$
     Ex = 0.5(b+a)
