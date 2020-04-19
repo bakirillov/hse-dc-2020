@@ -1,0 +1,1 @@
+Напишите клон игры 2048 (https://play2048.co/) при помощи библиотеки Pyxel (https://github.com/kitao/pyxel). Для обсчета состояний используйте numpy. Добавьте сохранение игры в JSON (https://docs.python.org/3/library/json.html).

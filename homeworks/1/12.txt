@@ -1,0 +1,5 @@
+Напишите интерпретатор языка Whirl (http://web.archive.org/web/20130116204525/bigzaphod.org/whirl/) с расчетами на видеокарте.
+
+входные данные: текст с программой
+
+Для обсчета используйте pytorch (https://pytorch.org/). Если нет cuda-совместимой видеокарты, используйте Google Colab (https://colab.research.google.com/). В этом случае использование argparse не требуется.

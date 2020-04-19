@@ -1,0 +1,7 @@
+Напишите программу для скачивания препринтов с сайта https://www.biorxiv.org/ при помощи Selenium (https://www.selenium.dev/). 
+
+Входные данные: 
+ссылка на список статей (пример https://www.biorxiv.org/collection/bioengineering).
+
+Выходные данные:
+Папка с pdf-файлами статей, список ссылок на скачивание статей.

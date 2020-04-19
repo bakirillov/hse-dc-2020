@@ -1,0 +1,4 @@
+Напишите текстовую РПГ в духе (https://adirobertson.itch.io/wake-word). Текст на ваше усмотрение.
+Переходы из состояния в состояние реализуйте при помощи transitions (https://github.com/pytransitions/transitions).
+В графе состояний должно быть не менее 20 узлов.
+Добавьте сохранение игры в JSON (https://docs.python.org/3/library/json.html).

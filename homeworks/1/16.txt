@@ -1,0 +1,1 @@
+Напишите клон игры Flappy Bird (https://flappybird.io/) при помощи библиотеки Arcade (https://arcade.academy/). Добавьте сохранение игры в JSON (https://docs.python.org/3/library/json.html).

@@ -1,0 +1,7 @@
+Напишите программу для создания скриншотов веб-страниц при помощи Selenium (https://www.selenium.dev/). 
+
+Входные данные: 
+ссылка на веб-страницу (пример https://www.biorxiv.org/collection/bioengineering).
+
+Выходные данные:
+Скриншот в png.
