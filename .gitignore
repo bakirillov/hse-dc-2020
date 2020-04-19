@@ -5,6 +5,10 @@ lectures/L3/.ipynb_checkpoints/*
 lectures/L4/.ipynb_checkpoints/*
 lectures/L5/.ipynb_checkpoints/*
 lectures/L6/.ipynb_checkpoints/*
+lectures/L8/.ipynb_checkpoints/*
+lectures/L9/.ipynb_checkpoints/*
+lectures/L10/.ipynb_checkpoints/*
+lectures/L11/.ipynb_checkpoints/*
 src/.ipynb_checkpoints/*
 src/tex/*
 src/pdf/*
@@ -13,4 +17,5 @@ src/answers/*
 src/variables/*
 tests/*
 classworks/*
-
+lectures/L10/mnist/
+lectures/L8/*png
